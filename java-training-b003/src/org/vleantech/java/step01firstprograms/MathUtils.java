@@ -1,6 +1,7 @@
 package org.vleantech.java.step01firstprograms;
 
 public class MathUtils {
+
 	public static int findSum(int a, int b) {
 		return a + b;
 	}
