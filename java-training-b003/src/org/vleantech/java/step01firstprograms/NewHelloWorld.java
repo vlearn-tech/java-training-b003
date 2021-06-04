@@ -3,14 +3,14 @@ package org.vleantech.java.step01firstprograms;
 public class NewHelloWorld {
 
 	public static void main(String[] args) {
-
 		System.out.println("Hello to the world of Java");
 		int num1 = 20;
 		int num2 = 30;
 
-		int calculatedSum = findSumOfNumbers(num1, num2); // pass parameters
-
+		int calculatedSum = findSumOfNumbers(20, 30); // pass parameters
 		print(calculatedSum);
+
+		print(findDiffOfNumbers(400, 300)); // pass parameters
 
 		// hello >> Hello
 
@@ -37,6 +37,10 @@ public class NewHelloWorld {
 	private static int findSumOfNumbers(int a, int b) { // accept arguments
 		int sum = a + b;
 		return sum;
+	}
+
+	private static int findDiffOfNumbers(int a, int b) { // accept arguments
+		return a - b;
 	}
 
 }
