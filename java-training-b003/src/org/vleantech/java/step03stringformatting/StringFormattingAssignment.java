@@ -17,7 +17,7 @@ public class StringFormattingAssignment {
 		String newQuery = String.format(""); // fill this up
 		System.out.println("Query using String.format :: " + newQuery);
 
-		// Two ways to format
+		// Two ways to format Strings
 		// 1 - use concatenation - rudimentary process
 		// 2 - use String.format with format specifiers - %s - String; %d - number; %f - decimal; %b - boolean
 
