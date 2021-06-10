@@ -11,10 +11,12 @@ public class StringFormattingAssignment {
 		System.out.println("The result expected is    :: "
 				+ "select * from employees where name like '%opal' and age >= 23 and cgpa < 9;");
 
-		String query = ""; // fill this up
+		String query = "select * from employees where name like '%" + namePredicate + "' and age >= " + agePredicate
+				+ " and cgpa < " + cgpaPredicate + ";"; // fill this up
 		System.out.println("Query using + operator    :: " + query);
 
-		String newQuery = String.format(""); // fill this up
+		String newQuery = String.format("select * from employees where name like '%%%s' and age >= %d and cgpa < %d;",
+				namePredicate, agePredicate, cgpaPredicate); // fill this up
 		System.out.println("Query using String.format :: " + newQuery);
 
 		// Two ways to format Strings
