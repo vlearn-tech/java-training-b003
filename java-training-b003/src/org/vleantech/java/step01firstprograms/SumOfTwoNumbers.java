@@ -7,10 +7,12 @@ public class SumOfTwoNumbers {
 
 		int result = MathUtils.findSum(number1, number2);
 
+		System.out.println(number1); // 10
+
 //		int sum = number1 + number2;
 //		int result = MathUtils.findSum(number1, number2);
 
-		System.out.println(result);
+		System.out.println(result); // 40
 	}
 //
 //	public static int doSomethingNiceWithTwoNumbers(int a, int b) {

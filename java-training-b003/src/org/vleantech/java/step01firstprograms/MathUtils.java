@@ -3,7 +3,10 @@ package org.vleantech.java.step01firstprograms;
 public class MathUtils {
 
 	public static int findSum(int a, int b) {
-		return a + b;
+		System.out.println(a); // 10
+		a = a + 10; // 20
+		System.out.println(a); // 20
+		return a + b; // 40
 	}
 
 	public static int findProduct(int a, int b) {
