@@ -1,3 +1,4 @@
 https://github.com/vlearn-tech/java-training-b003.git
 
 https://github.com/vlearn-tech/edabit-practice.git
+# After cloning and adding this project into your workspace do a right click on the new project and click on Maven >> Update Project
