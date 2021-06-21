@@ -28,7 +28,7 @@ public class AccessingAndPrintingElements {
 //		numbers[9] = random.nextInt(100);
 
 		// Print the entire array in one shot
-		System.out.println(Arrays.toString(numbers));
+		System.out.println(Arrays.toString(numbers)); // [a, b, c, d, f]
 
 		// Print the 5th element of the array
 		System.out.println("The 5th element in the array is : " + numbers[4]);
