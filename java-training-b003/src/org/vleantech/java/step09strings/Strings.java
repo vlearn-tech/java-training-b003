@@ -85,7 +85,9 @@ public class Strings {
 
 		// Create an array of strings, where each element is one word within the overall message. If message has 5
 		// words, then this array should have 5 elements
-		String[] words = message.split(" ");
+		String[] words = message.trim().split(" |\\.|\\,|!"); // split by ' ' or '.' or ',' or '!'. Since ',' and '.'
+																// have significance in regex, hence need to be escaped
+																// with \\
 		System.out.println(Arrays.toString(words));
 
 	}
