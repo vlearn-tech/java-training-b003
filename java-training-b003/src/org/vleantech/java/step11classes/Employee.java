@@ -68,6 +68,7 @@ public class Employee {
 
 	public void setJoiningDate(LocalDate joiningDate) {
 		this.joiningDate = joiningDate;
+		this.experience = calculateExperience();
 	}
 
 	public Boolean getIsMarried() {
@@ -104,10 +105,6 @@ public class Employee {
 
 	public Integer getExperience() {
 		return experience;
-	}
-
-	public void setExperience(Integer experience) {
-		this.experience = experience;
 	}
 
 }
