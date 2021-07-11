@@ -21,5 +21,12 @@ public class ParseDates {
 
 		System.out.println(indDate);
 
+		DateTimeFormatter defaultFormat2 = DateTimeFormatter.ofPattern("M/d/yyyy");// d - Date; M - month;
+		// m - minute; yyyy - 4 digit year
+		String indDay2 = "08/15/1947";
+		LocalDate indDate2 = LocalDate.parse(indDay2, defaultFormat2);
+
+		System.out.println(indDate2);
+
 	}
 }
