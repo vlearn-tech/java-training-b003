@@ -9,7 +9,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ReadRegionalReport {
+public class RegionalReportReader {
 	public static void main(String[] args) {
 		List<RegionalReport> regionalReport = getAllRecordsFromFile("C:\\Users\\HP\\Desktop\\JavaFiles",
 				"RegionalReportObjectFile.txt");
