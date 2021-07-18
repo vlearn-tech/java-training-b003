@@ -1,4 +1,4 @@
-package org.vleantech.java.step18inheritence;
+package org.vleantech.java.step18inheritance;
 
 public class Cat extends Pet {
 
