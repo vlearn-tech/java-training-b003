@@ -44,6 +44,18 @@ public class Employee {
 		this.officeAddress = officeAddress;
 	}
 
+	// Copy Constructor
+	public Employee(Employee ref) {
+		this.name = ref.name;
+		this.id = ref.id;
+		this.joiningDate = ref.joiningDate;
+		this.experience = calculateExperience();
+		this.isMarried = ref.isMarried;
+		this.salary = ref.salary;
+		this.band = ref.band;
+		this.officeAddress = ref.officeAddress;
+	}
+
 	public Employee(String name, Long id) {
 		this.name = name;
 		this.id = id;
