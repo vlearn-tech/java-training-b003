@@ -10,7 +10,6 @@ public class Dog extends Pet {
 		super(color, name, age);
 		this.breed = breed;
 		System.out.println("Dog is getting created with the parameterized constructor");
-
 	}
 
 	public Dog() {
