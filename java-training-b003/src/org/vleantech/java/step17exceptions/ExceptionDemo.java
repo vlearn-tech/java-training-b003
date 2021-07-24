@@ -23,4 +23,26 @@ public class ExceptionDemo {
 		}
 	}
 
+//	static private void createABooking(TicketBooking booking) {
+//
+//		// validate Booking
+//		try {
+//			validateBooking(booking);
+//		} catch (InvalidBookingDataException e) {
+//			// handle the exception here
+//		}
+//
+//		// create the Booking
+//
+//	}
+//
+//	static private void validateBooking(TicketBooking booking) throws InvalidBookingDataException {
+//		if (booking.numberOfTickets < 1) {
+//			throw new InvalidBookingDataException("Number of tickets cannot be zero");
+//		}
+//		if (booking.location == null) {
+//			throw new InvalidBookingDataException("Location has to be provided");
+//		}
+//	}
+
 }
