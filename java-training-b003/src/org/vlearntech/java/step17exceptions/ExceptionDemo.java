@@ -1,5 +1,7 @@
 package org.vlearntech.java.step17exceptions;
 
+import org.vlearntech.java.step23miscellaneous.Messages;
+
 public class ExceptionDemo {
 
 	public static void main(String[] args) {
@@ -18,7 +20,7 @@ public class ExceptionDemo {
 			try {
 				Integer.valueOf(input);
 			} catch (NumberFormatException e) {
-				throw new InvalidDataException("Invalid input. Expected numeric entry. Received '" + input + "'");
+				throw new InvalidDataException(Messages.INCORRECT_ENTRY_NUMBER_EXPECTED + "Received '" + input + "'");
 			}
 		}
 	}
